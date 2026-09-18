@@ -1,4 +1,4 @@
-Atividade de Engenharia de software
+# Atividade de Engenharia de software
 
 Foi implementado os seguintes requisitos nesta aplicação:
 - (usuário) deve ser simples de usar
