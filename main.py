@@ -9,6 +9,11 @@ from estacionamento import vagas
 
 vagas_class = estacionamento.Estacionamento()
 
+import pytest, sys 
+print("\n--- Rodando testes da Calculadora de Desconto ---")
+sys.exit(pytest.main(["test_calc.py", "-v"]))
+
+
 print("vagas: ", vagas(vagas_class), "\nVagas ocupadas: ", vagas_class.vagas_ocupadas, "\nvagas autorizadas: ", list(vagas_class.vagas_autorizadas))  # Mostrar vagas disponíveis
 c = input("Digite o número da vaga que deseja ocupar: ")
 c = int(c)
